@@ -1,0 +1,21 @@
+.add {
+	.add-text {
+        width: 100%;
+        height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+        text-align: center;
+        .add-textfield{
+            width: 100%;
+            padding:0% 0%;
+            margin-bottom: 5%;
+            margin-left: 6%;
+        }
+	}
+	.add-btn {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}

@@ -1,0 +1,14 @@
+.todo {
+    border-bottom: 1px solid rgb(212, 210, 210);
+	.done {
+		text-decoration: line-through;
+        background-color: rgb(230, 224, 224);
+	}
+	.done,
+	.not-done {
+		display: flex;
+		align-items: center;
+        justify-content: center;
+        margin-right: 7%;
+	}
+}
