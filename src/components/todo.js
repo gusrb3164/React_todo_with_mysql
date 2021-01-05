@@ -32,7 +32,7 @@ const Todo = ({ id, text, result }) => {
 		}
 	};
 	return (
-		<Paper>
+		<Paper elevation={4}>
 			<Grid container className="todo" direction="row">
 				{done === 1 ? (
 					<Grid item className="done" xs={9}>

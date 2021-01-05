@@ -1,8 +1,10 @@
 .todo {
+	font-weight:400;
+	font-size: 1.2rem;
     border-bottom: 1px solid rgb(212, 210, 210);
 	.done {
 		text-decoration: line-through;
-        background-color: rgb(230, 224, 224);
+        background-color: rgb(243, 243, 243);
 	}
 	.done,
 	.not-done {
